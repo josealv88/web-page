@@ -1,0 +1,97 @@
+body {
+    background-color: teal;
+}
+
+.main-header .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #1F2937;
+}
+
+.container {
+    width: 1450px;
+    max-width: 100%;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.main-nav ul {
+    margin: 15px 20px 200px;
+    margin-left: 700px;
+    margin-top: -250px;
+}
+
+.main-nav li {
+    display: inline;
+    padding: 5px;
+}
+
+.main-nav a {
+    display: inline-block;
+    padding: .5em 1 1.5em;
+    color: green;
+    font-size: 34px;
+}
+
+img {
+    max-width: 100%;
+    height: 250px;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: green;
+}
+
+h3 {
+    font-size: 18px;
+    color: darkgreen;
+}
+
+.weed-pic {
+    display: flex;
+    margin-right: 20px;
+    height: 400px;
+    width: 500px;
+    margin-bottom: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.company-logo {
+    margin-right: 600px;
+    font-family: 'Pacifico',cursive;
+    color: darkgreen;
+    height: 220px;
+    font-size: 62px;
+    margin-left: 100px;
+
+}
+
+button {
+    color:green;
+    padding: 10px;
+    background-color: tan;
+}
+
+p {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.context {
+    padding: 32px;
+    display: flex;
+    flex-wrap: flex;
+    justify-content: center;
+}
+
+.card {
+    padding: 16px;
+    margin: 16px;
+    width: 300px;
+}
