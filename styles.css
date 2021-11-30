@@ -33,6 +33,8 @@ body {
     padding: .5em 1 1.5em;
     color: green;
     font-size: 34px;
+    margin: 15px;
+    padding-left: 50px;
 }
 
 img {
@@ -101,6 +103,9 @@ p {
     border: 10px;
     border-style: dotted;
     border-color: lightgreen;
+    background-color: darkgreen;
+    font-style: italic;
+    font-weight: bold;
 }
 
 .quote {
@@ -117,9 +122,10 @@ p {
     font-size: 36px;
     padding: 10px;
     margin: 16px;
-    width: 500px;
+    width: 800px;
     font-style: italic;
     font-weight: lighter;
+    display: flex;
 }
 
 .owner {
@@ -141,8 +147,44 @@ p {
 .sign-up-container {
     background-color: lightslategray;
     margin: 70px;
-    padding: 70px;
+    padding: 50px;
     width: 800px;
     height: 100px;
     display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border: 2px;
+    border-style: groove;
+    border-radius: 20px;
+    padding-top: 10px;
+}
+
+.bottom-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #1F2937;
+    padding: 12px;
+    margin-left: 170px;
+    margin-right: 170px;
+    padding-bottom: 12px;
+}
+
+.footer-text {
+    color: white;
+    font-size: smaller;
+}
+
+h4 {
+    color: darkgreen;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+h5 {
+    color: darkgreen;
 }
